@@ -1,6 +1,6 @@
 # Hi!
 
-I'm Lachlan, but when I'm making games I'm Quentin Softpaw, the founder and lead dev of Forest Critter Studios. I have a couple friends helping out where I can, but it's mostly a solo project.
+I'm Lachlan, but when I'm making games I'm Quentin Softpaw, the founder and lead dev of Forest Critter Studios. I have a couple friends helping out where I can, but it's mostly a solo project. 
 
 # Violet Sun
 
