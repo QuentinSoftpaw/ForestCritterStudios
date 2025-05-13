@@ -13,6 +13,12 @@ Violet Sun is Forest Critter Studios' upcoming debut project. It's a work-in-pro
 ## Other media
 I'm doing all of the programming, 3D modelling, rigging, animations, sound design, shading/rendering, game design, art direction, visual effects, optimisation and level design. Here are visuals!
 
+<p>
+  <img src="Payday - Turntable.gif" width="30%" />
+  <img src="Ensis Take 1 - Turntable.gif" width="30%" />
+  <img src="Ensis Take 2 - Turntable.gi" width="30%" />
+</p>
+
 | ![Payday](Payday - Turntable.gif) | ![Ensis1](Ensis Take 1 - Turntable.gif)        | ![Payday](Ensis Take 2 - Turntable.gif) |
 | --------------------------------- | ---------------------------------------------- | --------------------------------------- |
 | *Payday, the gunslinger*          | *Ensis, the mercenary swordswoman. First take* | *Ensis, updated!*                       |
