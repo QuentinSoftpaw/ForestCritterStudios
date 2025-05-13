@@ -16,10 +16,13 @@ I'm doing all of the programming, 3D modelling, rigging, animations, sound desig
 <p>
   <img src="Payday - Turntable.gif" width="30%" />
   <img src="Ensis Take 1 - Turntable.gif" width="30%" />
-  <img src="Ensis Take 2 - Turntable.gi" width="30%" />
+  <img src="Ensis Take 2 - Turntable.gif" width="30%" />
 </p>
+| *Payday, the gunslinger* | *Ensis, the mercenary swordswoman. First take* | *Ensis, updated!* |
 
-| ![Payday](Payday - Turntable.gif) | ![Ensis1](Ensis Take 1 - Turntable.gif)        | ![Payday](Ensis Take 2 - Turntable.gif) |
-| --------------------------------- | ---------------------------------------------- | --------------------------------------- |
-| *Payday, the gunslinger*          | *Ensis, the mercenary swordswoman. First take* | *Ensis, updated!*                       |
 *That's a custom toon shader! It's really performant.*
+
+There's also a more recent gameplay gif showcasing the newer UI direction, with dynamic resource pickups and feedback on cooldown completion.
+![nimGameplay](Combat gif.gif)
+
+## The process
