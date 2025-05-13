@@ -4,7 +4,13 @@ I'm Lachlan, but when I'm making games I'm Quentin Softpaw, the founder and lead
 
 # Violet Sun
 
-Violet Sun is Forest Critter Studios' upcoming debut project. It's a work-in-progress, and I've laid out some of that progress here! The fastest way to get a grips on what the game's up to is to watch these two gameplay update videos I made to share with friends! They're only short.
+Violet Sun is Forest Critter Studios' upcoming debut project. Here's an excerpt from the Game Design Document pitching the concept:
+
+> "Violet Sun is a cooperative, roguelike, character based first-person shooter. It should be fully voice acted, colourful, fluid and highly replayable.
+> Players take the role of *Contractors*, a set of diverse playable characters employed by [[The Megacorp]] to clear out a series of planets of dangerous pests and monsters. 
+> Players collect upgrades to their character's kit throughout a run, and persistent upgrades give a small boost of power to Contractors between runs. "
+
+It's a work-in-progress, and I've laid out some of that progress here! The fastest way to get a grips on what the game's up to is to watch these two gameplay update videos I made to share with friends! They're only short.
 
 {% include youtube.html id="faL_9wo1nGw" %}
 
