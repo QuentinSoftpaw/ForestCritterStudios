@@ -18,11 +18,25 @@ I'm doing all of the programming, 3D modelling, rigging, animations, sound desig
   <img src="Ensis Take 1 - Turntable.gif" width="30%" />
   <img src="Ensis Take 2 - Turntable.gif" width="30%" />
 </p>
-| *Payday, the gunslinger* | *Ensis, the mercenary swordswoman. First take* | *Ensis, updated!* |
-
+*Payday the gunslinger, Ensis the mercenary swordswoman (first take), Ensis - updated!*
 *That's a custom toon shader! It's really performant.*
 
-There's also a more recent gameplay gif showcasing the newer UI direction, with dynamic resource pickups and feedback on cooldown completion.
+Here's a more recent gameplay gif showcasing the newer UI direction, with dynamic resource pickups and feedback on cooldown completion.
+
 ![nimGameplay](Combat gif.gif)
 
 ## The process
+I've been documenting the process in a casual way in my private discord. I share development updates, next-step mindmaps, and some deeper dives into implemenations I find interesting. The game is a huge undertaking and the documentation helps me take stock and stay motivated!
+![TODO](Macro VS TODO.png)
+![NestSpawning](Nest_Spawning_logic.png)
+![Map_draft](Canyon_Map_2.png)
+![Map3D](Map_Blockout.png)
+
+
+## Bonus
+If you're *really* interested, here's the whole game design document that got me this far.
+
+<iframe src="01 - Game Design Document.pdf" width="100%" height="600px">
+  This browser does not support PDFs. Please download the PDF to view it:
+  <a href="01 - Game Design Document.pdf">Download PDF</a>
+</iframe>
