@@ -25,6 +25,11 @@ Here's a more recent gameplay gif showcasing the newer UI direction, with dynami
 
 ![nimGameplay](Combat gif.gif)
 
+Here's a showcase of the GPU-instanced grass I made, entirely from shaders with no animations. It's not usually this dense, but this is still running at ~70 fps.
+
+![Grass](Grass.gif)
+
+
 These are the DropShops (courtesy of Biz the merchant cat) littered around the map. They have powerful Mods for sale that enhance player abilities.
 
 ![DropShot](Drop Shop.gif)
@@ -35,6 +40,9 @@ I've been documenting the process in a casual way in my private discord. I share
 ![NestSpawning](Nest_Spawning_logic.png)
 ![Map_draft](Canyon_Map_2.png)
 ![Map3D](Map_Blockout.png)
+
+Here's a screenshot from a much earlier build - how far we've come!
+![EarlyScreenshot](Early test.png)
 
 
 ## Bonus
