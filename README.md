@@ -10,7 +10,7 @@ Violet Sun is Forest Critter Studios' upcoming debut project. It's a work-in-pro
 
 {% include youtube.html id="I_QzhXlYXPE" %}
 
-## Other media
+## Characters & more media
 I'm doing all of the programming, 3D modelling, rigging, animations, sound design, shading/rendering, game design, art direction, visual effects, optimisation and level design. Here are visuals!
 
 <p>
@@ -21,9 +21,13 @@ I'm doing all of the programming, 3D modelling, rigging, animations, sound desig
 *Payday the gunslinger, Ensis the mercenary swordswoman (first take), Ensis - updated!*
 *That's a custom toon shader! It's really performant.*
 
-Here's a more recent gameplay gif showcasing the newer UI direction, with dynamic resource pickups and feedback on cooldown completion.
+Here's a more recent gameplay gif showcasing the newer UI direction, with dynamic resource pickups and feedback on cooldown completion. The animations for Nim, the character being played, are far from finished!
 
 ![nimGameplay](Combat gif.gif)
+
+These are the DropShops (courtesy of Biz the merchant cat) littered around the map. They have powerful Mods for sale that enhance player abilities.
+
+![DropShot](Drop Shop.gif)
 
 ## The process
 I've been documenting the process in a casual way in my private discord. I share development updates, next-step mindmaps, and some deeper dives into implemenations I find interesting. The game is a huge undertaking and the documentation helps me take stock and stay motivated!
