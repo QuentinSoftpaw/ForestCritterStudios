@@ -1,60 +1,54 @@
-# Hi!
+# React + TypeScript + Vite
 
-I'm Lachlan, but when I'm making games I'm Quentin Softpaw, the founder and lead dev of Forest Critter Studios. I have a couple friends helping out where they can, but it's mostly a solo project. 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# Violet Sun
+Currently, two official plugins are available:
 
-Violet Sun is Forest Critter Studios' upcoming debut project. Here's an excerpt from the Game Design Document pitching the concept:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-> "Violet Sun is a cooperative, roguelike, character based first-person shooter. It should be fully voice acted, colourful, fluid and highly replayable.
-> Players take the role of *Contractors*, a set of diverse playable characters employed by [[The Megacorp]] to clear out a series of planets of dangerous pests and monsters. 
-> Players collect upgrades to their character's kit throughout a run, and persistent upgrades give a small boost of power to Contractors between runs. "
+## Expanding the ESLint configuration
 
-It's a work-in-progress, and I've laid out some of that progress here! The fastest way to get a grips on what the game's up to is to watch these two gameplay update videos I made to share with friends! They're only short.
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-{% include youtube.html id="faL_9wo1nGw" %}
+```js
+export default tseslint.config({
+  extends: [
+    // Remove ...tseslint.configs.recommended and replace with this
+    ...tseslint.configs.recommendedTypeChecked,
+    // Alternatively, use this for stricter rules
+    ...tseslint.configs.strictTypeChecked,
+    // Optionally, add this for stylistic rules
+    ...tseslint.configs.stylisticTypeChecked,
+  ],
+  languageOptions: {
+    // other options...
+    parserOptions: {
+      project: ['./tsconfig.node.json', './tsconfig.app.json'],
+      tsconfigRootDir: import.meta.dirname,
+    },
+  },
+})
+```
 
-{% include youtube.html id="I_QzhXlYXPE" %}
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-## Characters & more media
-I'm doing all of the programming, 3D modelling, rigging, animations, sound design, shading/rendering, game design, art direction, visual effects, optimisation and level design. Here are visuals!
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
 
-<p>
-  <img src="Payday - Turntable.gif" width="30%" />
-  <img src="Ensis Take 1 - Turntable.gif" width="30%" />
-  <img src="Ensis Take 2 - Turntable.gif" width="30%" />
-</p>
-*Payday the gunslinger, Ensis the mercenary swordswoman (first take), Ensis - updated!*
-*That's a custom toon shader! It's really performant.*
-
-Here's a more recent gameplay gif showcasing the newer UI direction, with dynamic resource pickups and feedback on cooldown completion. The animations for Nim, the character being played, are far from finished!
-
-![nimGameplay](Combat gif.gif)
-
-Here's a showcase of the GPU-instanced grass I made, entirely from shaders with no animations. It's not usually this dense, but this is still running at ~70 fps.
-
-![Grass](Grass.gif)
-
-
-These are the DropShops (courtesy of Biz the merchant cat) littered around the map. They have powerful Mods for sale that enhance player abilities.
-
-![DropShot](Drop Shop.gif)
-
-## The process
-I've been documenting the process in a casual way in my private discord. I share development updates, next-step mindmaps, and some deeper dives into implemenations I find interesting. The game is a huge undertaking and the documentation helps me take stock and stay motivated!
-![TODO](Macro VS TODO.png)
-![NestSpawning](Nest_Spawning_logic.png)
-![Map_draft](Canyon_Map_2.png)
-![Map3D](Map_Blockout.png)
-
-Here's a screenshot from a much earlier build - how far we've come!
-![EarlyScreenshot](Early test.png)
-
-
-## Bonus
-If you're *really* interested, here's the whole game design document that got me this far.
-
-<iframe src="01 - Game Design Document.pdf" width="100%" height="600px">
-  This browser does not support PDFs. Please download the PDF to view it:
-  <a href="01 - Game Design Document.pdf">Download PDF</a>
-</iframe>
+export default tseslint.config({
+  plugins: {
+    // Add the react-x and react-dom plugins
+    'react-x': reactX,
+    'react-dom': reactDom,
+  },
+  rules: {
+    // other rules...
+    // Enable its recommended typescript rules
+    ...reactX.configs['recommended-typescript'].rules,
+    ...reactDom.configs.recommended.rules,
+  },
+})
+```
