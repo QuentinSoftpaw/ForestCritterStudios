@@ -57,13 +57,13 @@ function App() {
       {/*Videos*/}    
       <div className='animate-fade-in flex flex-col md:flex-row gap-5 items-center justify-center mt-6'>       
         <iframe
-            className={`animate-fade-in aspect-video w-full justify-center rounded-xl ${!isContentReady ? <Skeleton className='h-24'/> : ''}`}
+            className={`animate-fade-in aspect-video w-full justify-center md:w-1/2 rounded-xl ${!isContentReady ? <Skeleton className='h-24'/> : ''}`}
             src={`https://www.youtube.com/embed/faL_9wo1nGw`}
             allowFullScreen
             onLoad={() => setIsContentReady(true)}
         />
         <iframe
-          className={`animate-fade-in aspect-video w-full justify-center rounded-xl ${!isContentReady ? <Skeleton className='h-24'/> : ''}`}
+          className={`animate-fade-in aspect-video w-full justify-center md:w-1/2 rounded-xl ${!isContentReady ? <Skeleton className='h-24'/> : ''}`}
           src={`https://www.youtube.com/embed/I_QzhXlYXPE`}
           allowFullScreen
           onLoad={() => setIsContentReady(true)}
@@ -169,7 +169,12 @@ function App() {
           allowFullScreen
         >
         </iframe>
+        <div className='mt-8'>
       </div>
+      </div>
+
+
+        
     </>
   )
 }
